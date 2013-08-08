@@ -1,0 +1,1 @@
+cmd_/home/sthotton/lab/modules/proc_entry/proc_entry.ko.unsigned := ld -r -m elf_x86_64 -T /usr/src/kernels/2.6.32-279.el6.x86_64/scripts/module-common.lds --build-id -o /home/sthotton/lab/modules/proc_entry/proc_entry.ko.unsigned /home/sthotton/lab/modules/proc_entry/proc_entry.o /home/sthotton/lab/modules/proc_entry/proc_entry.mod.o 

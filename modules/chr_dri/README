@@ -1,0 +1,8 @@
+What it is ?
+------------
+	cdev_dri.c is a simple character device driver module code. Its buffer size can be configured with BUFF_SIZE.
+
+How to run ? -> ./script
+------------
+	There is a make file which will produce the kernel object file. That can be inserted into the kernel using insmod and removed using rmmod. Another method is, just run the script (./script). It has all the commands.
+	

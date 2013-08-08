@@ -1,0 +1,4 @@
+sudo rmmod proc_entry.ko
+make
+sudo insmod proc_entry.ko
+dmesg|tail -5

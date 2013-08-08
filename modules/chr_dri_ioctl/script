@@ -1,0 +1,7 @@
+sudo rmmod cdev_dri_ioctl.ko
+# sudo dmesg -c
+make
+sudo insmod cdev_dri_ioctl.ko
+sudo chmod o+r /dev/chr_dev
+sudo chmod o+w /dev/chr_dev
+echo "this is supposed tobe a big line..." > /dev/chr_dev

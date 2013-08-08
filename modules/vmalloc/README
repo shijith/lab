@@ -1,0 +1,8 @@
+What it is ?
+------------
+	vm_cdev_dri.c is a simple character device driver module code, whose buffer is allocated using vmalloc. Its buffer size can be configured by writting to /proc/proc_entry.
+
+How to run ? -> ./script
+------------
+	There is a make file which will produce the kernel object file. That can be inserted into the kernel using insmod and removed using rmmod. Another method is, just run the script (./script). It has all the commands.
+	

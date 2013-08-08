@@ -1,0 +1,8 @@
+What it is ?
+------------
+	cdev_dri_mmap.c is an extension of simple character device driver module code with mmap option. It maps the device buffer to user space. Its buffer size can be configured with BUFF_SIZE. mmap can be tested using test_map.c.
+
+How to run ? -> ./script && ./a.out
+------------
+	There is a make file which will produce the kernel object file. That can be inserted into the kernel using insmod and removed using rmmod. Another method is, just run the script (./script). It has all the commands.
+	

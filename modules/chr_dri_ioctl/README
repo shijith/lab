@@ -1,0 +1,8 @@
+What it is ?
+------------
+	cdev_dri_ioctl.c is an extension of simple character device driver module with ioctl. One command defined CDEV_CLEAR is toclear the buffer starting at the offset specified.  Its buffer size can be configured with BUFF_SIZE. Program test_ioctl.c can be used to test command.
+
+How to run ? -> ./script && ./a,out <offset>
+------------
+	There is a make file which will produce the kernel object file. That can be inserted into the kernel using insmod and removed using rmmod. Another method is, just run the script (./script). It has all the commands.
+Test program can be run giving offset as the argument (./a.out <offset>).

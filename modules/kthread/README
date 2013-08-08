@@ -1,0 +1,8 @@
+What it is ?
+------------
+	kthread_test.c is kernel module to create threads and do a vector addition with them.
+
+How to run ?
+------------
+	There is a make file which will produce the kernel object file. That can be inserted into the kernel using insmod and removed using rmmod.
+	

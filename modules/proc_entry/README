@@ -1,0 +1,8 @@
+What it is ?
+------------
+	proc_entry.c is a kernel module code to create some directories and entries in /proc.	
+
+How to run ? ./script
+------------
+	There is a make file which will produce the kernel object file. That can be inserted into the kernel using insmod and removed using rmmod. Another method is, just run the script (./script). It has all the commands.
+	

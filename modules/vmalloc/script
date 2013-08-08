@@ -1,0 +1,9 @@
+sudo rmmod vm_cdev_dri.ko
+# sudo dmesg -c
+make
+sudo insmod vm_cdev_dri.ko
+sudo chmod o+r /dev/chr_dev
+sudo chmod o+w /dev/chr_dev
+echo "4194" > /proc/proc_entry
+sudo echo "this is supposed tobe a big line..." > /dev/chr_dev
+dmesg | tail -n 10
